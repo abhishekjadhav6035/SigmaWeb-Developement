@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .square {
+            width: 80vw;
+            height: 80vh;
+            position: relative;
+            background-color: blue;
+            /* border-radius: 2px solid red; */
+            margin: 20px auto;
+        }
+
+        .square div {
+            position: absolute;
+            bottom: 0;
+            text-align: left;
+            width: 12vw;
+            height: 12vw;
+            border-radius: 12vw;
+            background-color: orangered;
+            animation: y 1s cubic-bezier(0, 0.54, 1, 1) 0s infinite alternate running, x 10s linear 0s infinite alternate running;
+           
+        }
+
+        @keyframes x {
+            to {
+
+                transform: translatex(68vw);
+
+            }
+        }
+
+        @keyframes y {
+            to {
+                transform: translateY(-40vw);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="square">
+            <div class="ball"></div>
+        </div>
+    </main>
+</body>
+
+</html>

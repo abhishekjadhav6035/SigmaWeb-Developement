@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body of UltraEdit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            width: 90vw;
+            height: 90vh;
+            margin: auto;
+            padding: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+
+        }
+
+        .container {
+            background-color: whitesmoke;
+            padding: 20px;
+            margin: 10px;
+            display: grid;
+            height: 150px;
+            grid-template-rows: [first]60% [second]40%;
+            place-content: center;
+        }
+
+        .head {
+
+            grid-row: first;
+            display: grid;
+            place-content: center;
+            text-align: center;
+
+        }
+
+        .foot {
+            grid-row: second;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            place-content: center;
+            text-align: center;
+            gap: 20px;
+            color: white;
+        }
+
+        .foot div {
+            width: 100%;
+            height: 140%;
+            /* border: 2px solid black; */
+            border-radius: 10px;
+            padding: 0px 5px;
+        }
+
+        .one:hover {
+            background-color: rgb(31, 236, 236);
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .one {
+            background-color: rgb(105, 206, 232);
+
+        }
+
+        .two {
+            background-color: green;
+        }
+
+        .two:hover {
+            background-color: lightgreen;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="head">
+                <h3>English</h3>
+                <h6>english</h6>
+            </div>
+            <div class="foot">
+                <div class="one">
+                    <a class="a32" href="ue_english.exe">Download 32-bit</a>
+                </div>
+                <div class="two"><a class="a64" href="ue_english.exe">Download 62-bit</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="head">
+                <h3>Deutsch</h3>
+                <h6>German</h6>
+            </div>
+            <div class="foot">
+                <div class="one">
+                    <a class="a32" href="">Download 32-bit</a>
+                </div>
+                <div class="two"><a class="a64" href="">Download 62-bit</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="head">
+                <h3>Italiano</h3>
+                <h6>Italian</h6>
+            </div>
+            <div class="foot">
+                <div class="one">
+                    <a class="a32" href="">Download 32-bit</a>
+                </div>
+                <div class="two"><a class="a64" href="">Download 62-bit</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="head">
+                <h3>Español</h3>
+                <h6>Spanish</h6>
+            </div>
+            <div class="foot">
+                <div class="one">
+                    <a class="a32" href="">Download 32-bit</a>
+                </div>
+                <div class="two"><a class="a64" href="">Download 62-bit</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="head">
+                <h3>français</h3>
+                <h6>French</h6>
+            </div>
+            <div class="foot">
+                <div class="one">
+                    <a class="a32" href="">Download 32-bit</a>
+                </div>
+                <div class="two"><a class="a64" href="">Download 62-bit</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="head">
+                <h3>日本</h3>
+                <h6>Japanese</h6>
+            </div>
+            <div class="foot">
+                <div class="one">
+                    <a class="a32" href="">Download 32-bit</a>
+                </div>
+                <div class="two"><a class="a64" href="">Download 62-bit</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
