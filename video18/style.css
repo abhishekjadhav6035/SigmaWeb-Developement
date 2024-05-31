@@ -1,0 +1,23 @@
+.box{
+    background-color: aqua;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.box1{
+    color: yellow;
+    padding: 10px;
+    margin: 35px;
+    border: 2px solid orange;
+    height: 200px;
+    box-sizing: border-box;
+.box2{
+    color: red;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    height: 200px;
+    box-sizing: border-box;
+}
