@@ -1,0 +1,157 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Martel Sans", sans-serif;
+    color: white;
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/big_baground.jpg");
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+.main.box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 110px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0, 30px;
+    text-align: center;
+}
+.hero > :nth-child(1){
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+.hero > :nth-child(2) {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 27px;
+
+}
+.hero > :nth-child(3){
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(48, 48, 48);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color:rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 7px;
+    
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+.main input{
+    padding:7px 15px 8px 14px;
+    font-size: 12px;
+    border-radius: 7px;
+    background-color:rgba(23, 23, 23, 0.2);
+    color: white;
+}
+.btn-red-sn{
+    background-color: red;
+}
+.first{
+   max-width: 70vw;
+   margin: auto;
+   padding: auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+   gap: 10px;
+}
+.text{
+    min-width:400px;
+    background-color: pink;
+}
+.secImg{
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    display: grid;
+
+}
+.secImg img{
+    width: 100%;
+    position: absolute;
+    top: -81px;
+    right: -4px;
+}
+.secImg video{
+    width: 75%;
+    margin: auto;   
+}
+/* .secImg img{
+    position: absolute;
+    top: 0;
+    width: 400px;
+    
+
+}
+.secImg video{
+    position: relative;
+   width: 400px;
+} */
