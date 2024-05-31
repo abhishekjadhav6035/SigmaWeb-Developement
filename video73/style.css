@@ -1,0 +1,65 @@
+.card{
+    height: 100px;
+    width: 100vw;
+    border: 2px solid black;
+    display: grid;
+    background-color: black;
+    grid-template-columns:[first] 25vw [second] 75vw ;
+}
+.img{
+    position:relative;
+    grid-area: first;
+    height: 98px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.title{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    padding: auto;
+    justify-content: left;
+    align-items: center;
+    grid-area: second;
+    height: 25%; 
+    padding: 2px;
+    margin: 2px 0px;
+    border: 2px solid black;
+}
+.info{
+    display: flex;
+    padding: auto;
+    justify-content: left;
+    align-items: center;
+    padding:0 10px;
+    gap: 15px;
+    text-align: center;
+    grid-area: second;
+    height: 15%;
+    border: 2px solid black;
+}
+.time{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    height: 15%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.img img {
+    height: 98px;
+    width: 24vw;
+    object-fit: cover;
+    display: block; /* Removes default inline spacing */
+}
+*{
+    text-align: center;
+    color: white;
+}
